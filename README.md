@@ -18,13 +18,14 @@
 
 #### 📦 Ecosystem & Open Source
 
-I build foundational, zero-allocation (`no_std`) crates to bring desktop-grade graphics, DSP, and machine learning to microcontrollers:
+I build foundational, zero-allocation (`no_std`) crates to bring desktop-grade graphics, DSP, audio, and machine learning to microcontrollers:
 
 | Crate | Category | Description |
 | :--- | :--- | :--- |
 | [**`embedded-gui`**](https://github.com/leftger/embedded-gui) | 🎨 GUI & Animation | Zero-alloc HUD & UI toolkit, 2D flex/grid layouts, declarative KDL compiler, sub-ms dithered blits |
 | [**`embedded-3dgfx`**](https://github.com/leftger/embedded-3dgfx) | 🧊 3D Engine | Fast software rasterizer, 3D pipelines, lighting models, and vector geometry for tiny displays |
 | [**`embedded-dsp`**](https://github.com/leftger/embedded-dsp) | 📈 Signal Processing | Fixed/float DSP filters, FFT, IIR/FIR pipelines, and real-time audio/sensor math on bare metal |
+| [**`embedded-audio`**](https://github.com/leftger/embedded-audio) | 🔊 Embedded Audio | PWM audio engine, wavetable/FM synthesis, effect banks, and multi-channel mixer for Cortex-M |
 | [**`embedded-nn`**](https://github.com/leftger/embedded-nn) | 🧠 Edge AI / ML | Lightweight, allocator-free quantized neural network inference runtimes for microcontrollers |
 
 <br>
@@ -37,11 +38,10 @@ I build foundational, zero-allocation (`no_std`) crates to bring desktop-grade g
 
 <br>
 
-#### 🎲 Trivia
+#### 🎲 Trivia & Passions
 
-> *"Linear algebra is the foundation of everything fast."*
-
-* 📐 I once had dinner with **Prof. Gilbert Strang** (MIT Linear Algebra legend). Naturally, it inspired writing matrix kernels and DSP transforms for microcontrollers.
+* 🏛️ **Mesoamerican History:** Deeply fascinated by Mesoamerican history and Nahua civilization (which inspired the Aztec Ferris above!). I own a full 14-volume complete set of the *Florentine Codex* (Dibble & Anderson English/Nahuatl translation).
+* 📐 **Dinner with a Legend:** I once had dinner with **Prof. Gilbert Strang** (MIT Linear Algebra legend). Naturally, it fueled a lifetime passion for matrix kernels and DSP transforms on microcontrollers.
 * ☕ ~10 years in bare-metal C, now proving that safe, async Rust can match or beat hand-tuned C on microcontrollers.
 
 ---
