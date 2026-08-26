@@ -32,7 +32,10 @@ I build foundational, zero-allocation (`no_std`) crates to bring desktop-grade g
 
 #### ⚡ Core Focus & Hardware Bringup
 
-* **Embassy & STM32:** Co-maintaining [Embassy](https://github.com/embassy-rs/embassy) with a focus on STM32 architecture and silicon bringup. Responsible for the **STM32WBA BLE stack** integration.
+* **Embassy & [`stm32-data`](https://github.com/embassy-rs/stm32-data):** Maintainer contributing across the [Embassy](https://github.com/embassy-rs/embassy) ecosystem:
+  * **Silicon Bringup:** Register modeling and PAC generation for new STM32 families (**STM32N6**, **U5**, **H7R/S**, **C5**, **WBA**), including I3C, GFXMMU/GPU2D, and GTZC security subsystems.
+  * **Wireless & HAL:** Ported and maintain the **STM32WBA BLE stack** and radio subsystems for Embassy.
+  * **Core Drivers:** Async HAL features and driver reliability across `embassy-stm32` (ADC, I2C/DMA, RCC) and `embassy-time`.
 * **Driver Architecture:** Big advocate of [@diondokter](https://github.com/diondokter)'s [`device-driver`](https://github.com/diondokter/device-driver) crate — declarative, bit-level type-safety is the gold standard for how peripheral drivers should be authored.
 * **Solar & Telemetry:** Offline solar harvesting, MPPT telemetry, smart-home sensors, and low-power mesh radios.
 
