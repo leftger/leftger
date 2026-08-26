@@ -40,7 +40,7 @@ I build foundational, zero-allocation (`no_std`) crates to bring desktop-grade g
 
 #### 🎲 Trivia & Passions
 
-* 🏛️ **Mesoamerican History:** Deeply fascinated by Mesoamerican history and Nahua civilization (which inspired the Aztec Ferris above!). I own a full 14-volume complete set of the *Florentine Codex* (Dibble & Anderson English/Nahuatl translation).
+* 🏛️ **Mesoamerican History:** Deeply fascinated by Mesoamerican history and Nahua civilization (which inspired the Aztec Ferris above!). I own a full 12-volume complete set of the *Florentine Codex* (Dibble & Anderson English/Nahuatl translation).
 * 📐 **Dinner with a Legend:** I once had dinner with **Prof. Gilbert Strang** (MIT Linear Algebra legend). Naturally, it fueled a lifetime passion for matrix kernels and DSP transforms on microcontrollers.
 * ☕ ~10 years in bare-metal C, now proving that safe, async Rust can match or beat hand-tuned C on microcontrollers.
 
