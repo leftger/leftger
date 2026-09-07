@@ -13,8 +13,6 @@ on:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    # Only run if USER_TOKEN secret is configured (required for GitHub GraphQL viewer queries)
-    if: "${{ secrets.USER_TOKEN != '' }}"
     permissions:
       contents: write
     steps:
