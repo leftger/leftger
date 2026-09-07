@@ -24,7 +24,9 @@
 
 #### ⚡ Stats
 
-I joined GitHub **14** years ago and have since pushed commits, opened issues, and submitted pull requests across **60+** personal projects, with extensive contributions to public repositories including **Embassy** and **stm32-data**.
+I joined GitHub **{{ ACCOUNT_AGE }}** years ago and have since pushed **{{ COMMITS }}** commits, opened **{{ ISSUES }}** issues, submitted **{{ PULL_REQUESTS }}** pull requests, and earned **{{ STARS }}** stars across **{{ REPOSITORIES }}** personal projects, with contributions to **{{ REPOSITORIES_CONTRIBUTED_TO }}** public repositories.
+
+I'm currently on a **{{ COMMIT_STREAK }}**-day commit streak.
 
 #### 🛠️ What am I working on?
 
